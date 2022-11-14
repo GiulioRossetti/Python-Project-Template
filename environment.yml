@@ -1,0 +1,6 @@
+name: package_name
+dependencies:
+- python>=3.8
+- numpy
+- scikit-learn
+- scipy

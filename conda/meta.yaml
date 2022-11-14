@@ -1,0 +1,39 @@
+{% set name = "package_name" %}
+{% set version = "0.0.1" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+
+requirements:
+  host:
+    - numpy
+    - pip
+    - python>=3.8
+    - scikit-learn
+    - scipy
+    - setuptools
+  build:
+    - python
+    - setuptools
+  run:
+    - numpy
+    - python>=3.8
+    - scikit-learn
+    - scipy
+
+about:
+  home: "https://github.com/USERNAME/project"
+  license: "BSD"
+  license_family: "BSD"
+  license_file: ""
+  summary: "Description of the package"
+  doc_url: "https://package_name.readthedocs.io/"
+  dev_url: "https://github.com/USERNAME/project"
+
+extra:
+  recipe-maintainers:
+    - PackageOwner

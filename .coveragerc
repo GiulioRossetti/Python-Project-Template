@@ -1,0 +1,11 @@
+[run]
+omit =
+ setup.py
+
+[report]
+exclude_lines =
+    def main()
+    raise
+    except
+    continue
+    pass
