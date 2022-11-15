@@ -1,15 +1,18 @@
 # Python Project Template
 [![SBD++](https://img.shields.io/badge/Available%20on-SoBigData%2B%2B-green)](https://sobigdata.d4science.org/group/sobigdata-gateway/explore?siteId=20371853)
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 A small template project to exemplify the use of GitHub Actions to automatically build and publish a Python package to PyPI (and Conda).
 
 The project is a simple Python package that contains an object class, an object container ad a few functions to sort them and convert from/to JSON.
 
 The project comes with:
-- a few GitHub Actions to automatically build and publish the package to PyPI (and Conda) when a new release is created;
+- a few GitHub Actions to automatically build and publish the package to PyPI (and Conda) when a new release is created (or on demand);
+- a GitHub Action to check the code quality using CodeQL;
+- a GitHub Action to check compliance with Black code style;
 - a few tests to exemplify the use of pytest;
 - a minimal sphinx documentation to exemplify the use of sphinx and readthedocs;
-- minimal configuration files to exemplify the use of gitignore and coveragerc;
+- a minimal configuration files to exemplify the use of gitignore and coveragerc;
 - a minimal setup.py to exemplify the use of setuptools.
 
 ## Packaging and Distribution
