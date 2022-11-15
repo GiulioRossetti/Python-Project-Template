@@ -18,5 +18,5 @@ class TestAlgorithms(unittest.TestCase):
         self.assertEqual(pls, pls2)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

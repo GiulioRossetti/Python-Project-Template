@@ -4,7 +4,6 @@ from package_name.classes.profiles import *
 
 
 class TestAlgorithms(unittest.TestCase):
-
     def test_sort_profiles(self):
         pls = Profiles()
         pls.add_profile(Profile("John", 20, "M"))
@@ -21,5 +20,5 @@ class TestAlgorithms(unittest.TestCase):
         self.assertEqual(name_sorted.profiles[0].name, "Jack")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

@@ -2,7 +2,6 @@ __all__ = ["Profile", "Profiles"]
 
 
 class Profile(object):
-
     def __init__(self, name: str, age: int, gender: str):
         """
         Initialize the Profile object.

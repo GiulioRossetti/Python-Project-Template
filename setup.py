@@ -47,15 +47,15 @@ setup(
     install_requires=requirements,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    extras_require={
-        "flag": [
-            "networkit",
-            "pycombo",
-            "leidenalg",
-            "karateclub",
-        ]
-    },
+    extras_require={"flag": ["networkit", "pycombo", "leidenalg", "karateclub",]},
     packages=find_packages(
-        exclude=["*.test", "*.test.*", "test.*", "test", "package_name.test", "package_name.test.*"]
+        exclude=[
+            "*.test",
+            "*.test.*",
+            "test.*",
+            "test",
+            "package_name.test",
+            "package_name.test.*",
+        ]
     ),
 )

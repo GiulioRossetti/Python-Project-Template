@@ -1,4 +1,4 @@
-# Simple Project
+# Python Project Template
 [![SBD++](https://img.shields.io/badge/Available%20on-SoBigData%2B%2B-green)](https://sobigdata.d4science.org/group/sobigdata-gateway/explore?siteId=20371853)
 
 A small template project to exemplify the use of GitHub Actions to automatically build and publish a Python package to PyPI (and Conda).
