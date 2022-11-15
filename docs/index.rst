@@ -33,6 +33,8 @@ PackageName Dev Team
    :hidden:
 
    installing.rst
+   API.rst
+
 
 
 
