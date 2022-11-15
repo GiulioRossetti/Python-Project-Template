@@ -20,7 +20,7 @@ For a detailed guide refer to:
 Here a small summary of the most important steps.
 
 
-### Pypi test (optional for testing only)
+### Pypi test (optional, for testing only)
 
 Create a [PyPi test](https://test.pypi.org/) account and a new project (using [twine](https://packaging.python.org/en/latest/guides/using-testpypi/)). 
 Then, create a new token and copy it.
@@ -48,4 +48,16 @@ Finally, go to the project settings and enable the GitHub Actions.
 ## Documentation (ReadTheDocs)
 
 Create a [ReadTheDocs](https://readthedocs.org/) account and import the GitHub project. 
+
+To generate the documentation locally (after having installed ``sphinx`` and ``sphinx_rtd_theme`` using **pip**) move to the ``docs`` folder and run:
+
+```bash 
+make html
+```
+
+To clean the generated documentation run:
+
+```bash 
+make clean
+```
 
