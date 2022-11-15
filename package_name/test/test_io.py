@@ -1,4 +1,5 @@
 import unittest
+from package_name import Profiles, Profile
 from package_name.readwrite import *
 
 
