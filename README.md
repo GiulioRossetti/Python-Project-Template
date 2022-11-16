@@ -52,7 +52,7 @@ Finally, go to the project settings and enable the GitHub Actions.
 
 Create a [ReadTheDocs](https://readthedocs.org/) account and import the GitHub project. 
 
-To generate the documentation locally (after having installed ``sphinx`` and ``sphinx_rtd_theme`` using **pip**) move to the ``docs`` folder and run:
+To generate the documentation locally (after having installed ``sphinx``, ``sphinx_rtd_theme`` and ``mock`` using **pip**) move to the ``docs`` folder and run:
 
 ```bash 
 make html
