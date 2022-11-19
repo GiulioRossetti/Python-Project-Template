@@ -22,7 +22,7 @@ To learn more about the project (and for a crash course on the listed topics), p
 This project is licensed under the terms of the BSD-2-Clause license.
 
 ## Acknowledgements
-This repository was developed within the [SoBigData++](https://sobigdata.d4science.org/group/sobigdata-gateway/explore?siteId=20371853) project training activities (WP4) to support "Social Mining and Big Data resources Integration" (WP8).
+This repository was developed within the [SoBigData++](https://sobigdata.d4science.org/group/sobigdata-gateway/explore?siteId=20371853) H2020 project training activities (WP4) to support "Social Mining and Big Data resources Integration" (WP8).
 
 ## Contact
 [Giulio Rossetti](mailto:giulio.rossetti@gmail.com) - CNR-ISTI 
