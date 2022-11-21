@@ -24,5 +24,10 @@ This project is licensed under the terms of the BSD-2-Clause license.
 ## Acknowledgements
 This repository was developed within the [SoBigData++](https://sobigdata.d4science.org/group/sobigdata-gateway/explore?siteId=20371853) H2020 project training activities (WP4) to support "Social Mining and Big Data resources Integration" (WP8).
 
-## Contact
+## Contact(s)
 [Giulio Rossetti](mailto:giulio.rossetti@gmail.com) - CNR-ISTI 
+
+Twitter: [@giuliorossetti](https://twitter.com/GiulioRossetti)
+
+Mastodon: [@giuliorossetti@mastodon.uno](https://mastodon.uno/@giuliorossetti)
+
